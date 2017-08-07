@@ -7,7 +7,7 @@ var App = (function() {
 
 	function add() {
 		var task = $('#input-taskName').val();
-		var decs = $('#input-taskDecs').val();
+		var desc = $('#input-taskDesc').val();
 		var show = `
 				<div class="col-sm-4 taskItem">
 					<div class="card">
@@ -16,7 +16,7 @@ var App = (function() {
 								<span aria-hidden="true">&times;</span>
 							</button>
 								<h3 class="card-title">${task}</h3>
-								<p class="card-text">${decs}</p>
+								<p class="card-text">${desc}</p>
 						</div>
 					</div>
 				</div>`;
