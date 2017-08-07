@@ -16,7 +16,7 @@ var App = (function() {
 								<span aria-hidden="true">&times;</span>
 							</button>
 								<h3 class="card-title">${task}</h3>
-								<p class="card-text">${task}</p>
+								<p class="card-text">${decs}</p>
 						</div>
 					</div>
 				</div>`;
